@@ -1,15 +1,3 @@
-<!-- Readme top-->
-
-<a name="readme-top"></a>
-
-<!-- Project shields -->
-<span style="display:block" align="center" class="shields">
-
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 </span>
 
 <!-- Readme Header -->
