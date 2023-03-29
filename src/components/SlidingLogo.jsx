@@ -42,7 +42,10 @@ function SlidingLogo() {
           </Link>
           {/* wifinder.com */}
           <span className={`${styles.brandName} text-2xl font-bold`}>
-            <a className="nameTag" href="">
+            <a
+              className="nameTag"
+              href="https://github.com/marcahudson26/WiFinder-app"
+            >
               WiFinder.com
             </a>
           </span>

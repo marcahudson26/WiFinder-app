@@ -1,12 +1,15 @@
-/* .checkboxes {
-  border: 1px red solid;
-  min-width: fit-content;
-  margin-right: -4rem;
-} */
 
-@media (max-width: 1024px) {
+@media (min-width: 1510px) {
   .checkboxes {
     margin-left: 3rem;
+    min-width: 520px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .checkboxes {
+    margin-left: 3rem;
+    min-width: 520px;
   }
 }
 

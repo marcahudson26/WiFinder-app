@@ -35,16 +35,16 @@ const SearchSettingsBar = ({ location, range, onSearch, categories }) => {
 
   return (
     <>
-      <section className={`${styles.searchStrip} flex z-50`}>
+      <section className={`${styles.searchStrip} flex z-50 flex-wrap`}>
         {/* the div that needs to stop flex and go BLOCK @1024px */}
         <div
-          className={`${styles.splitRow} p-4 mt-8 justify-center items-center w-full bg-purps pt-2 pb-6 mx-auto`}
+          className={`${styles.splitRow} p-4 mt-8 justify-center items-center w-full bg-purps pt-2 pb-6  flex-wrap`}
         >
           <form
-            className={`${styles.searchStripForm} flex justify-center items-center bg-tone mx-auto mt-6 ml-8 animate-fadeIn`}
+            className={`${styles.searchStripForm} flex justify-center items-center bg-tone mt-6 ml-8 animate-fadeIn`}
           >
             <div
-              className={`${styles.searchDiv} flex flex-col lg:flex-row mr-8 justify-center items-center mx-auto`}
+              className={`${styles.searchDiv} flex flex-col lg:flex-row mr-8 justify-center items-center `}
             >
               {/* search icon */}
               <i
@@ -82,9 +82,7 @@ const SearchSettingsBar = ({ location, range, onSearch, categories }) => {
                 onChange={handleCategoryChange}
               />
               {/* button */}
-              <div
-                className={`${styles.locationInputAction} ml-16 mt-4 md:mt-0`}
-              >
+              <div className={`${styles.locationInputAction}`}>
                 <button
                   className={`${btnStyles.btnAlt} rounded-full py-3 px-12
                   hover:animate-floating`}
