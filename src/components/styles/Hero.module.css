@@ -4,9 +4,9 @@
 }
 
 .pin {
-  position: absolute;
-  top: 52vh;
-  right: 17vw;
+  position: relative;
+  bottom: 500px;
+  left:350px
 }
 
 @media (max-width: 1550px) {
@@ -23,15 +23,18 @@
   }
 
   .pin {
-
-    right: 17vw;
+    position: relative;
+    bottom: 420px;
+    left:300px
+    
   }
 }
 
 @media (max-width: 1024px) {
   .pin {
-    top: 494px;
-    right: 160px;
+    position: relative;
+    bottom: 350px;
+    left:250px
   }
 }
 
@@ -48,24 +51,27 @@
   }
 
   .pin {
-    top: 494px;
-    right: 160px;
+    position: relative;
+    bottom: 350px;
+    left:220px
   }
 }
 
 @media (max-width: 805px) {
 
   .pin {
-    top: 444px;
-    right: 140px;
+    position: relative;
+    bottom: 320px;
+    left:200px
   }
 }
 
 @media (max-width: 768px) {
 
   .pin {
-    top: 1204px;
-    right: 265px;
+    position: relative;
+    bottom: 380px;
+    left:380px
   }
 }
 
@@ -80,14 +86,20 @@
   }
 
   .pin {
-    top: 1174px;
-    right: 180px;
+    position: relative;
+    bottom: 380px;
+    left:310px
   }
 }
 
 @media (max-width: 500px) {
   .heroImg {
     margin-top: 0;
+  }
+  .pin {
+    position: relative;
+    bottom: 300px;
+    left:200px
   }
 
 }
@@ -99,8 +111,8 @@
   }
 
   .pin {
-    top: 1054px;
-    right: 150px;
+    bottom: 280px;
+    left:180px
   }
 }
 
@@ -111,8 +123,8 @@
   }
 
   .pin {
-    top: 1000px;
-    right: 160px;
+    bottom: 230px;
+    left:140px
   }
 }
 
@@ -123,7 +135,7 @@
   }
 
   .pin {
-    top: 900px;
-    right: 160px;
+    bottom: 200px;
+    left:110px
   }
 }
