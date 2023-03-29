@@ -1,0 +1,51 @@
+.mainTextHide {
+  font-size: 61px;
+}
+
+
+@media (max-width: 1324px) {
+
+  .mainTextHide {
+    font-size: 40px;
+  }
+
+  .miniTag {
+    font-size: 18px;
+    max-width: 400px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 770px) {
+
+  .logoLg {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .logoLg {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 414px) {
+
+  .mainTextHide {
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .logoLg {
+    margin-top: -2rem;
+  }
+
+  .mainTextHide {
+    font-size: 26px;
+    margin-bottom: 1rem;
+  }
+}

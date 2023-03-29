@@ -1,0 +1,100 @@
+/* app styling (master) */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import './index.css';
+
+:root {
+  --background: #292C33;
+  --bg-dark: #20293A;
+  --bg-light: #F7F9FA;
+  --bg-tone: #313437;
+  --dark: #6E6E73;
+  --text-dark: #303030;
+  --text-light: #fff;
+  --bg-grey: #BCBEC3;
+  --bg-dark-grey: #626C7A;
+  --purps: #4E46DC;
+  --aqua: #74FBB5;
+  --lime: #78E15B;
+  --orange: #F1A846;
+  --grassy: #CDEE68;
+  --gradient: linear-gradient(45deg,
+      rgba(47, 47, 47, 0.8) 0%,
+      rgba(119, 119, 119, 0.9) 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px red solid; */
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+/* dark mode switches */
+
+.body-dark-mode {
+  color: var(--text-light);
+  background-color: var(--background);
+}
+
+/* map */
+.body-dark-mode .google-map [role=region] > :first-child {
+  filter: invert(90%) hue-rotate(161deg) saturate(0.5);
+}
+/* icons */
+.object-contain {
+  filter: invert(1)
+}
+
+.body-dark-mode .object-contain {
+  filter: invert(0);
+}
+
+/* navbar */
+.body-dark-mode .object-navbar {
+  background-color: var(--background);
+}
+
+/* nav burger toggle */
+.body-dark-mode .bBar {
+  background-color: var(--bg-light);
+}
+
+.mobile-nav {
+  z-index: 999;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 52px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-size: 42px;
+}
+
+a:hover {
+  color: var(--purps);
+  font-weight: 700;
+}

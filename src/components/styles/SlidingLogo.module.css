@@ -1,0 +1,15 @@
+/* .brandName {
+  all: unset;
+}
+
+.brandName {
+  display: block;
+}
+
+@media (min-width: 320px) {
+
+  body .brandName {
+    display: none !important;
+  }
+} */
+

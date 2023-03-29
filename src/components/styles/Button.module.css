@@ -1,0 +1,27 @@
+.btnCTA {
+  background-color: var(--purps);
+  color: var(--text-light);
+  font-size: 22px;
+}
+
+.btnCTA:hover {
+  background-color: var(--bg-tone);
+  color: var(--text-light);
+  transform: translateY(1px);
+}
+
+.btnAlt {
+  background-color: var(--bg-tone);
+  color: var(--text-light);
+}
+
+.btnAlt:hover {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  transform: translateY(1px);
+}
+
+.btnCTA:active, .btnAlt:active {
+  transform: translateY(3px);
+  box-shadow: 0px 5px rgba(6, 6, 3, 0.3);
+}
