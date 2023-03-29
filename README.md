@@ -17,11 +17,15 @@
 
 <div align="center">
 <p>Ultimate Wi-Fi Hot spot and hangout locator app, built using React.js, Node.js, JavaScript, Tailwind, CSS, SCSS and HTML5.</p>
-
 </div>
+
 <br>
 
-#
+## deployed app
+
+[ "Wifinder.com"](https://wi-finder-app.vercel.app/)
+
+<br>
 
 ## Table of Contents
 
